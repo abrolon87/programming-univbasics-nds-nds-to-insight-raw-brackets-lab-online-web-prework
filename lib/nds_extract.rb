@@ -6,7 +6,7 @@ require 'directors_database'
 
 def directors_totals(nds)
   director_index = 0
-  result = {}
+  result = {}      #create empty hash for data to go into
 
 
   while director_index < nds.length do
